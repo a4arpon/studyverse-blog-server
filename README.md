@@ -1,6 +1,13 @@
-# StudyVerse Server Side
+# [StudyVerse](https://studyverse-wayne.netlify.app/) Server Side
 
-## Environment  Variables
+## Environment Variables
+
 ```properties
-
+CLIENT_URL=https://studyverse-wayne.netlify.app/
 ```
+
+## API End Point
+
+`https://studyverse-server.vercel.app/`
+
+

@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-// const cors = require('cors')
+const cors = require('cors')
 require('dotenv').config()
 const port = process.env.port || 5000
 /*---------------------------------------------------
@@ -11,7 +11,7 @@ const blogsRouter = require('./routes/blogs')
 /*---------------------------------------------------
   Express Middleware 
 ---------------------------------------------------*/
-// app.use(cors())
+app.use(cors())
 app.use(express.json())
 
 /*--------------- Blogs Route -------------------*/

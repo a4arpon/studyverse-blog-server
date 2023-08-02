@@ -6,7 +6,7 @@ const myBlogs = require('../controllers/blogs/myBlogs')
 const postBlog = require('../controllers/blogs/postBlog')
 
 /*-----------____ Add Blogs ____-----------*/
-blogsRouter.post('/users', postBlog)
+blogsRouter.post('/blogs', postBlog)
 
 /*-----------____ Get All Blogs ____-----------*/
 blogsRouter.get('/blogs', getBlogs)
