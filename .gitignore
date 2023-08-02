@@ -1,0 +1,7 @@
+/node_modules/
+.yarn
+.yarn/
+/.yarn/
+/node_modules/*
+.env.*
+.env.local
