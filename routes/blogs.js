@@ -27,7 +27,9 @@ blogsRouter.get('/blogs/:blogID', getBlog)
 /*-----------____ My Blogs ____-----------*/
 blogsRouter.get('/blogs/my-blogs/:postedBy', myBlogs)
 
-// Comments
+/*-----------------------------------------
+ Comments Routes for blog posts
+------------------------------------------*/
 
 blogsRouter.post('/comments', addComments)
 
