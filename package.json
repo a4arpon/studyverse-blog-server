@@ -3,6 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a4arpon/studyverse-blog-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/a4arpon/studyverse-blog-server/issues"
+  },
+  "homepage": "https://github.com/a4arpon/studyverse-blog-server#readme",
+  "author": "Mr. Wayne",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
