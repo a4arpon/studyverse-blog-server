@@ -31,7 +31,7 @@ npm install
 4. [Setup Environment variables](#environment-variables).
 
 ```sh
-touch .env.local
+touch .env
 ```
 
 5. Start Server
@@ -55,7 +55,7 @@ yarn run start # otherwise you can use npm run start.
 
 ## Environment Variables
 
-**Note: Please create a `.env.local` file in the base directory to run this server on local machine. And the `.env.local` file wil contain the mongodb connection string properties.**
+**Note: Please create a `.env` file in the base directory to run this server on local machine. And the `.env` file wil contain the mongodb connection string properties.**
 
 ```properties
 MONGODB_STRING=https://studyverse-wayne.netlify.app/

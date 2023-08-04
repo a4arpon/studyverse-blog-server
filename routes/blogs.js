@@ -6,6 +6,8 @@ const getBlogs = require('../controllers/blogs/getBlogs')
 const myBlogs = require('../controllers/blogs/myBlogs')
 const postBlog = require('../controllers/blogs/postBlog')
 const updateBlog = require('../controllers/blogs/updateBlog')
+const addComments = require('../controllers/comments/addComments')
+const getComments = require('../controllers/comments/getComments')
 
 /*-----------____ Add Blog ____-----------*/
 blogsRouter.post('/blogs', postBlog)
@@ -24,6 +26,13 @@ blogsRouter.get('/blogs/:blogID', getBlog)
 
 /*-----------____ My Blogs ____-----------*/
 blogsRouter.get('/blogs/my-blogs/:postedBy', myBlogs)
+
+// Comments
+
+blogsRouter.post('/comments', addComments)
+
+/*-----------____ Get All Comments ____-----------*/
+blogsRouter.get('/comments/:blogID', getComments)
 
 // Export Router
 module.exports = blogsRouter

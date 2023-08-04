@@ -19,7 +19,7 @@ app.use(express.json())
 app.use(blogsRouter)
 
 /*--------------- Comments Route -------------------*/
-app.use(commentsRouter)
+// app.use(commentsRouter)
 
 app.get('/', (req, res) => {
   res.send('Server Running')
