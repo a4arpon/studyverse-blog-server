@@ -7,7 +7,6 @@ const port = process.env.port || 5000
     Routes Imports
 ---------------------------------------------------*/
 const blogsRouter = require('./routes/blogs')
-const commentsRouter = require('./routes/comments')
 
 /*---------------------------------------------------
   Express Middleware 
