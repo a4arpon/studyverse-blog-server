@@ -1,4 +1,4 @@
-# [StudyVerse](https://studyverse-wayne.netlify.app/) Server Side
+# [StudyVerse](https://studyverse-wayne.web.app/) Server Side
 
 ## [Client Side Git.](https://github.com/a4arpon/studyverse-blog-client.git)
 
@@ -58,7 +58,7 @@ yarn run start # otherwise you can use npm run start.
 **Note: Please create a `.env` file in the base directory to run this server on local machine. And the `.env` file wil contain the mongodb connection string properties.**
 
 ```properties
-MONGODB_STRING=https://studyverse-wayne.netlify.app/
+MONGODB_STRING=https://studyverse-wayne.web.app/
 ```
 
 ## API End Point
